@@ -1,0 +1,14 @@
+Set Authentication Password Policy Lockout threshold to 3 and duration to 250 seconds
+Steps:
+1.	Go to Azure portal  Azure AD  Settings 
+2.	In settings section  go to Authentication methods
+3.	Select Password Protection
+4.	Enter value of Lockout threshold and Lockout duration in seconds
+5.	Save 
+
+
+Security Administrator, or Global Administrator 
+
+Azure AD P1 or P2 licenses 
+
+Smart lockout helps lock out bad actors that try to guess your users' passwords or use brute-force methods to get in. Smart lockout can recognize sign-ins that come from valid users and treat them differently than ones of attackers and other unknown sources. Attackers get locked out, while your users continue to access their accounts and be productive.	
